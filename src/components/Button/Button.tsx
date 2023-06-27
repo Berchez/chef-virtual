@@ -30,7 +30,7 @@ export const Button = ({
             onClick={onClick}
             type={type}
             disabled={disabled}
-            className={className + " bg-green-400"}
+            className={"bg-green-400 w-32 h-12 rounded-lg" + ' ' + className }
           >
             <h2>{label}</h2>
           </button>
@@ -41,7 +41,7 @@ export const Button = ({
           onClick={onClick}
           type={type}
           disabled={disabled}
-          className={className + " bg-green-400"}
+          className={"bg-green-500 w-32 h-12 rounded-lg" + ' ' + className}
         >
           <h2>{label}</h2>
         </button>
