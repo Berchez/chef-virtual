@@ -1,0 +1,424 @@
+{
+  "ingredients": [
+    {
+      "name": "Sal",
+      "icon": ""
+    },
+    {
+      "name": "Açúcar",
+      "icon": ""
+    },
+    {
+      "name": "Farinha de trigo",
+      "icon": ""
+    },
+    {
+      "name": "Manteiga",
+      "icon": ""
+    },
+    {
+      "name": "Leite",
+      "icon": ""
+    },
+    {
+      "name": "Ovos",
+      "icon": ""
+    },
+    {
+      "name": "Fermento em pó",
+      "icon": ""
+    },
+    {
+      "name": "Óleo vegetal",
+      "icon": ""
+    },
+    {
+      "name": "Chocolate em pó",
+      "icon": ""
+    },
+    {
+      "name": "Cebola",
+      "icon": ""
+    },
+    {
+      "name": "Alho",
+      "icon": ""
+    },
+    {
+      "name": "Tomate",
+      "icon": ""
+    },
+    {
+      "name": "Pimenta",
+      "icon": ""
+    },
+    {
+      "name": "Limão",
+      "icon": ""
+    },
+    {
+      "name": "Salsinha",
+      "icon": ""
+    },
+    {
+      "name": "Cebolinha",
+      "icon": ""
+    },
+    {
+      "name": "Azeite de oliva",
+      "icon": ""
+    },
+    {
+      "name": "Vinagre",
+      "icon": ""
+    },
+    {
+      "name": "Mostarda",
+      "icon": ""
+    },
+    {
+      "name": "Molho de soja",
+      "icon": ""
+    },
+    {
+      "name": "Mel",
+      "icon": ""
+    },
+    {
+      "name": "Canela",
+      "icon": ""
+    },
+    {
+      "name": "Noz-moscada",
+      "icon": ""
+    },
+    {
+      "name": "Gengibre",
+      "icon": ""
+    },
+    {
+      "name": "Coentro",
+      "icon": ""
+    },
+    {
+      "name": "Manjericão",
+      "icon": ""
+    },
+    {
+      "name": "Orégano",
+      "icon": ""
+    },
+    {
+      "name": "Alecrim",
+      "icon": ""
+    },
+    {
+      "name": "Tomilho",
+      "icon": ""
+    },
+    {
+      "name": "Páprica",
+      "icon": ""
+    },
+    {
+      "name": "Cúrcuma",
+      "icon": ""
+    },
+    {
+      "name": "Cominho",
+      "icon": ""
+    },
+    {
+      "name": "Pimentão",
+      "icon": ""
+    },
+    {
+      "name": "Amido de milho",
+      "icon": ""
+    },
+    {
+      "name": "Creme de leite",
+      "icon": ""
+    },
+    {
+      "name": "Queijo parmesão",
+      "icon": ""
+    },
+    {
+      "name": "Queijo muçarela",
+      "icon": ""
+    },
+    {
+      "name": "Queijo cheddar",
+      "icon": ""
+    },
+    {
+      "name": "Queijo cream cheese",
+      "icon": ""
+    },
+    {
+      "name": "Presunto",
+      "icon": ""
+    },
+    {
+      "name": "Peito de frango",
+      "icon": ""
+    },
+    {
+      "name": "Carne moída",
+      "icon": ""
+    },
+    {
+      "name": "Linguiça",
+      "icon": ""
+    },
+    {
+      "name": "Bacon",
+      "icon": ""
+    },
+    {
+      "name": "Peixe",
+      "icon": ""
+    },
+    {
+      "name": "Camarão",
+      "icon": ""
+    },
+    {
+      "name": "Arroz",
+      "icon": ""
+    },
+    {
+      "name": "Feijão",
+      "icon": ""
+    },
+    {
+      "name": "Batata",
+      "icon": ""
+    },
+    {
+      "name": "Cenoura",
+      "icon": ""
+    },
+    {
+      "name": "Abobrinha",
+      "icon": ""
+    },
+    {
+      "name": "Brócolis",
+      "icon": ""
+    },
+    {
+      "name": "Couve-flor",
+      "icon": ""
+    },
+    {
+      "name": "Milho",
+      "icon": ""
+    },
+    {
+      "name": "Ervilha",
+      "icon": ""
+    },
+    {
+      "name": "Azeitona",
+      "icon": ""
+    },
+    {
+      "name": "Atum",
+      "icon": ""
+    },
+    {
+      "name": "Salmão",
+      "icon": ""
+    },
+    {
+      "name": "Laranja",
+      "icon": ""
+    },
+    {
+      "name": "Maçã",
+      "icon": ""
+    },
+    {
+      "name": "Banana",
+      "icon": ""
+    },
+    {
+      "name": "Morango",
+      "icon": ""
+    },
+    {
+      "name": "Abacaxi",
+      "icon": ""
+    },
+    {
+      "name": "Pêssego",
+      "icon": ""
+    },
+    {
+      "name": "Uva",
+      "icon": ""
+    },
+    {
+      "name": "Melancia",
+      "icon": ""
+    },
+    {
+      "name": "Manga",
+      "icon": ""
+    },
+    {
+      "name": "Abacate",
+      "icon": ""
+    },
+    {
+      "name": "Coco",
+      "icon": ""
+    },
+    {
+      "name": "Amêndoas",
+      "icon": ""
+    },
+    {
+      "name": "Nozes",
+      "icon": ""
+    },
+    {
+      "name": "Castanha de caju",
+      "icon": ""
+    },
+    {
+      "name": "Castanha-do-pará",
+      "icon": ""
+    },
+    {
+      "name": "Aveia",
+      "icon": ""
+    },
+    {
+      "name": "Melado",
+      "icon": ""
+    },
+    {
+      "name": "Iogurte",
+      "icon": ""
+    },
+    {
+      "name": "Gelatina",
+      "icon": ""
+    },
+    {
+      "name": "Sorvete",
+      "icon": ""
+    },
+    {
+      "name": "Doce de leite",
+      "icon": ""
+    },
+    {
+      "name": "Geleia",
+      "icon": ""
+    },
+    {
+      "name": "Massa folhada",
+      "icon": ""
+    },
+    {
+      "name": "Goiabada",
+      "icon": ""
+    },
+    {
+      "name": "Amendoim",
+      "icon": ""
+    },
+    {
+      "name": "Doce de abóbora",
+      "icon": ""
+    },
+    {
+      "name": "Requeijão",
+      "icon": ""
+    },
+    {
+      "name": "Cream cracker",
+      "icon": ""
+    },
+    {
+      "name": "Biscoito de maisena",
+      "icon": ""
+    },
+    {
+      "name": "Macarrão",
+      "icon": ""
+    },
+    {
+      "name": "Molho de tomate",
+      "icon": ""
+    },
+    {
+      "name": "Catchup",
+      "icon": ""
+    },
+    {
+      "name": "Mostarda Dijon",
+      "icon": ""
+    },
+    {
+      "name": "Molho barbecue",
+      "icon": ""
+    },
+    {
+      "name": "Maionese",
+      "icon": ""
+    },
+    {
+      "name": "Ketchup",
+      "icon": ""
+    },
+    {
+      "name": "Maionese caseira",
+      "icon": ""
+    },
+    {
+      "name": "Pão de forma",
+      "icon": ""
+    },
+    {
+      "name": "Pão francês",
+      "icon": ""
+    },
+    {
+      "name": "Pão de queijo",
+      "icon": ""
+    },
+    {
+      "name": "Pão sírio",
+      "icon": ""
+    },
+    {
+      "name": "Pão integral",
+      "icon": ""
+    },
+    {
+      "name": "Pão de hambúrguer",
+      "icon": ""
+    },
+    {
+      "name": "Pão de hot dog",
+      "icon": ""
+    },
+    {
+      "name": "Baguete",
+      "icon": ""
+    },
+    {
+      "name": "Mandioca",
+      "icon": ""
+    },
+    {
+      "name": "Manteiga de amendoim",
+      "icon": ""
+    }
+  ]
+}
