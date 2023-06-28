@@ -6,7 +6,11 @@ module.exports = {
     "./src/templates/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        fluid: "repeat(auto-fit, minmax(70px, 3fr))",
+      },
+    },
   },
   plugins: [],
 };

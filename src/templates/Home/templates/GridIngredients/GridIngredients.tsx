@@ -1,15 +1,33 @@
+"use client";
 import React from "react";
-import Egg from '../../../../../public/assets/Ingredients/egg.png'
+import ingredientsApi from "../../../../api/ingredients.json";
+import Egg from "../../../../../public/assets/Ingredients/egg.png";
 import { Ingredient } from "@/components/Ingredient";
 
 type GridIngredientsProps = React.ComponentPropsWithoutRef<"div">;
 
-export const GridIngredients = ({className, ...props}: GridIngredientsProps) => {
+export const GridIngredients = ({
+  className,
+  ...props
+}: GridIngredientsProps) => {
+  const listIngredients = ingredientsApi.ingredients;
   return (
-    <div {...props} className={'w-full h-full bg-red-50 border-2 border-slate-400 border-dashed grid grid-cols-2 text-black p-8' + ' ' + className}>
-      <Ingredient pathImg={Egg} name='Egg' />
-      <p>oi2</p>
-      <p>oi3</p>
+    <div
+      {...props}
+      className={
+        "w-full h-full bg-red-50 border-2 border-slate-400 border-dashed grid " +
+        "grid-cols-fluid justify-evenly text-black p-8 gap-x-12 gap-y-10" +
+        " " +
+        className
+      }
+    >
+      {listIngredients.map((ingredient, key) => (
+        <Ingredient
+          key={key}
+          name={ingredient.name}
+          pathImg={ingredient.icon}
+        />
+      ))}
     </div>
   );
 };
