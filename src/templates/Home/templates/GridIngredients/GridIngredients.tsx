@@ -16,7 +16,7 @@ export const GridIngredients = ({
       {...props}
       className={
         "w-full h-full bg-red-50 border-2 border-slate-400 border-dashed grid " +
-        "grid-cols-fluid justify-evenly text-black p-8 gap-x-12 gap-y-10" +
+        "grid-cols-fluid justify-evenly text-black p-8 gap-x-14 gap-y-12  " +
         " " +
         className
       }

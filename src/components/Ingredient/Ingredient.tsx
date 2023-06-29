@@ -9,7 +9,7 @@ type IngredientProps = {
 export const Ingredient = ({ name, pathImg }: IngredientProps) => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
-      <Image src={pathImg} width={32} height={32} alt={`image of a ${name}`} />
+      <Image src={pathImg} width={40} height={40} alt={`image of a ${name}`} />
       <p className="text-center">{name}</p>
     </div>
   );

@@ -1,6 +1,58 @@
 {
   "ingredients": [
     {
+      "name": "Arroz",
+      "icon": "/assets/Ingredients/rice.png"
+    },
+    {
+      "name": "Feijão",
+      "icon": "/assets/Ingredients/beans.png"
+    },
+    {
+      "name": "Carne bovina",
+      "icon": "/assets/Ingredients/cow.png"
+    },
+    {
+      "name": "Carne de frango",
+      "icon": "/assets/Ingredients/hen.png"
+    },
+    {
+      "name": "Carne suína",
+      "icon": "/assets/Ingredients/pig.png"
+    },
+    {
+      "name": "Peixe",
+      "icon": "/assets/Ingredients/fish.png"
+    },
+    {
+      "name": "Banana",
+      "icon": "/assets/Ingredients/banana.png"
+    },
+    {
+      "name": "Laranja",
+      "icon": "/assets/Ingredients/orange.png"
+    },
+    {
+      "name": "Abacaxi",
+      "icon": "/assets/Ingredients/pineapple.png"
+    },
+    {
+      "name": "Batata",
+      "icon": "/assets/Ingredients/potato.png"
+    },
+    {
+      "name": "Cenoura",
+      "icon": "/assets/Ingredients/carrot.png"
+    },
+    {
+      "name": "Carne seca",
+      "icon": "/assets/Ingredients/dry-meat.png"
+    },
+    {
+      "name": "Mandioca",
+      "icon": "/assets/Ingredients/yucca.png"
+    },
+    {
       "name": "Sal",
       "icon": "/assets/Ingredients/salt.png"
     },
@@ -110,7 +162,75 @@
     },
     {
       "name": "Alecrim",
-      "icon": "/assets/Ingredients/Rosemary.png"
+      "icon": "/assets/Ingredients/rosemary.png"
+    },
+    {
+      "name": "Tomilho",
+      "icon": "/assets/Ingredients/thyme.png"
+    },
+    {
+      "name": "Páprica",
+      "icon": "/assets/Ingredients/paprika.png"
+    },
+    {
+      "name": "Cominho",
+      "icon": "/assets/Ingredients/cumin.png"
+    },
+    {
+      "name": "Pimentão",
+      "icon": "/assets/Ingredients/bell-pepper.png"
+    },
+    {
+      "name": "Milho",
+      "icon": "/assets/Ingredients/corn.png"
+    },
+    {
+      "name": "Creme de leite",
+      "icon": "/assets/Ingredients/milk-cream.png"
+    },
+    {
+      "name": "Queijo parmesão",
+      "icon": "/assets/Ingredients/parmesan.png"
+    },
+    {
+      "name": "Queijo muçarela",
+      "icon": "/assets/Ingredients/mozzarella.png"
+    },
+    {
+      "name": "Queijo cheddar",
+      "icon": "/assets/Ingredients/cheddar.png"
+    },
+    {
+      "name": "Queijo cream cheese",
+      "icon": "/assets/Ingredients/cream-cheese.png"
+    },
+    {
+      "name": "Presunto",
+      "icon": "/assets/Ingredients/ham.png"
+    },
+    {
+      "name": "Peito de frango",
+      "icon": "/assets/Ingredients/chicken-breast.png"
+    },
+    {
+      "name": "Carne moída",
+      "icon": "/assets/Ingredients/mince.png"
+    },
+    {
+      "name": "Linguiça",
+      "icon": "/assets/Ingredients/sausage.png"
+    },
+    {
+      "name": "Bacon",
+      "icon": "/assets/Ingredients/bacon.png"
+    },
+    {
+      "name": "Camarão",
+      "icon": "/assets/Ingredients/shrimp.png"
+    },
+    {
+      "name": "Abobrinha",
+      "icon": "/assets/Ingredients/zucchini.png"
     }
   ]
 }
