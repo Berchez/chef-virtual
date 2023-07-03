@@ -1,13 +1,15 @@
 "use client";
 import React from "react";
 import ingredientsApi from "../../../../api/ingredients.json";
-import Egg from "../../../../../public/assets/Ingredients/egg.png";
-import { Ingredient } from "@/components/Ingredient";
+import { Ingredient, IngredientProps } from "@/components/Ingredient";
 
-type GridIngredientsProps = React.ComponentPropsWithoutRef<"div">;
+interface GridIngredientsProps extends React.ComponentPropsWithoutRef<"div"> {
+  onIngredientClick: (ingredient: IngredientProps) => void;
+}
 
 export const GridIngredients = ({
   className,
+  onIngredientClick,
   ...props
 }: GridIngredientsProps) => {
   const listIngredients = ingredientsApi.ingredients;
@@ -24,8 +26,9 @@ export const GridIngredients = ({
       {listIngredients.map((ingredient, key) => (
         <Ingredient
           key={key}
+          onClick={() => onIngredientClick(ingredient)}
           name={ingredient.name}
-          pathImg={ingredient.icon}
+          pathImg={ingredient.pathImg}
         />
       ))}
     </div>

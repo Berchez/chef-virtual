@@ -2,14 +2,15 @@ import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { ArrowRight } from '@styled-icons/material'
 
-type IngredientProps = {
+export type IngredientProps = {
   name: string;
   pathImg: StaticImageData | string;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
 };
 
-export const Ingredient = ({ name, pathImg }: IngredientProps) => {
+export const Ingredient = ({ name, pathImg, onClick }: IngredientProps) => {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center group hover:brightness-75 hover:cursor-pointer">
+    <div onClick={onClick} className="w-full h-full flex flex-col items-center justify-center group hover:brightness-75 hover:cursor-pointer">
       <Image src={pathImg} width={40} height={40} alt={`image of a ${name}`} />
       <div className="flex justify-center items-center gap-x-2">
         <p className="text-center">{name}</p>

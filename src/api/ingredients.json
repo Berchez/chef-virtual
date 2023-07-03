@@ -2,235 +2,235 @@
   "ingredients": [
     {
       "name": "Arroz",
-      "icon": "/assets/Ingredients/rice.png"
+      "pathImg": "/assets/Ingredients/rice.png"
     },
     {
       "name": "Feijão",
-      "icon": "/assets/Ingredients/beans.png"
+      "pathImg": "/assets/Ingredients/beans.png"
     },
     {
       "name": "Carne bovina",
-      "icon": "/assets/Ingredients/cow.png"
+      "pathImg": "/assets/Ingredients/cow.png"
     },
     {
       "name": "Carne de frango",
-      "icon": "/assets/Ingredients/hen.png"
+      "pathImg": "/assets/Ingredients/hen.png"
     },
     {
       "name": "Carne suína",
-      "icon": "/assets/Ingredients/pig.png"
+      "pathImg": "/assets/Ingredients/pig.png"
     },
     {
       "name": "Peixe",
-      "icon": "/assets/Ingredients/fish.png"
+      "pathImg": "/assets/Ingredients/fish.png"
     },
     {
       "name": "Banana",
-      "icon": "/assets/Ingredients/banana.png"
+      "pathImg": "/assets/Ingredients/banana.png"
     },
     {
       "name": "Laranja",
-      "icon": "/assets/Ingredients/orange.png"
+      "pathImg": "/assets/Ingredients/orange.png"
     },
     {
       "name": "Abacaxi",
-      "icon": "/assets/Ingredients/pineapple.png"
+      "pathImg": "/assets/Ingredients/pineapple.png"
     },
     {
       "name": "Batata",
-      "icon": "/assets/Ingredients/potato.png"
+      "pathImg": "/assets/Ingredients/potato.png"
     },
     {
       "name": "Cenoura",
-      "icon": "/assets/Ingredients/carrot.png"
+      "pathImg": "/assets/Ingredients/carrot.png"
     },
     {
       "name": "Carne seca",
-      "icon": "/assets/Ingredients/dry-meat.png"
+      "pathImg": "/assets/Ingredients/dry-meat.png"
     },
     {
       "name": "Mandioca",
-      "icon": "/assets/Ingredients/yucca.png"
+      "pathImg": "/assets/Ingredients/yucca.png"
     },
     {
       "name": "Sal",
-      "icon": "/assets/Ingredients/salt.png"
+      "pathImg": "/assets/Ingredients/salt.png"
     },
     {
       "name": "Açúcar",
-      "icon": "/assets/Ingredients/sugar.png"
+      "pathImg": "/assets/Ingredients/sugar.png"
     },
     {
       "name": "Farinha de trigo",
-      "icon": "/assets/Ingredients/wheat.png"
+      "pathImg": "/assets/Ingredients/wheat.png"
     },
     {
       "name": "Manteiga",
-      "icon": "/assets/Ingredients/butter.png"
+      "pathImg": "/assets/Ingredients/butter.png"
     },
     {
       "name": "Leite",
-      "icon": "/assets/Ingredients/milk.png"
+      "pathImg": "/assets/Ingredients/milk.png"
     },
     {
       "name": "Ovos",
-      "icon": "/assets/Ingredients/egg.png"
+      "pathImg": "/assets/Ingredients/egg.png"
     },
     {
       "name": "Fermento em pó",
-      "icon": "/assets/Ingredients/baking-powder.png"
+      "pathImg": "/assets/Ingredients/baking-powder.png"
     },
     {
       "name": "Óleo vegetal",
-      "icon": "/assets/Ingredients/oil.png"
+      "pathImg": "/assets/Ingredients/oil.png"
     },
     {
       "name": "Chocolate em pó",
-      "icon": "/assets/Ingredients/choco-powder.png"
+      "pathImg": "/assets/Ingredients/choco-powder.png"
     },
     {
       "name": "Cebola",
-      "icon": "/assets/Ingredients/onion.png"
+      "pathImg": "/assets/Ingredients/onion.png"
     },
     {
       "name": "Alho",
-      "icon": "/assets/Ingredients/garlic.png"
+      "pathImg": "/assets/Ingredients/garlic.png"
     },
     {
       "name": "Tomate",
-      "icon": "/assets/Ingredients/tomato.png"
+      "pathImg": "/assets/Ingredients/tomato.png"
     },
     {
       "name": "Pimenta",
-      "icon": "/assets/Ingredients/pepper.png"
+      "pathImg": "/assets/Ingredients/pepper.png"
     },
     {
       "name": "Limão",
-      "icon": "/assets/Ingredients/lemon.png"
+      "pathImg": "/assets/Ingredients/lemon.png"
     },
     {
       "name": "Salsinha",
-      "icon": "/assets/Ingredients/parsley.png"
+      "pathImg": "/assets/Ingredients/parsley.png"
     },
     {
       "name": "Cebolinha",
-      "icon": "/assets/Ingredients/green-onion.png"
+      "pathImg": "/assets/Ingredients/green-onion.png"
     },
     {
       "name": "Azeite de oliva",
-      "icon": "/assets/Ingredients/olive-oil.png"
+      "pathImg": "/assets/Ingredients/olive-oil.png"
     },
     {
       "name": "Vinagre",
-      "icon": "/assets/Ingredients/vinegar.png"
+      "pathImg": "/assets/Ingredients/vinegar.png"
     },
     {
       "name": "Mostarda",
-      "icon": "/assets/Ingredients/mustard.png"
+      "pathImg": "/assets/Ingredients/mustard.png"
     },
     {
       "name": "Molho de soja",
-      "icon": "/assets/Ingredients/soy-sauce.png"
+      "pathImg": "/assets/Ingredients/soy-sauce.png"
     },
     {
       "name": "Mel",
-      "icon": "/assets/Ingredients/honey.png"
+      "pathImg": "/assets/Ingredients/honey.png"
     },
     {
       "name": "Canela",
-      "icon": "/assets/Ingredients/cinnamon-roll.png"
+      "pathImg": "/assets/Ingredients/cinnamon-roll.png"
     },
     {
       "name": "Noz-moscada",
-      "icon": "/assets/Ingredients/nutmeg.png"
+      "pathImg": "/assets/Ingredients/nutmeg.png"
     },
     {
       "name": "Gengibre",
-      "icon": "/assets/Ingredients/ginger.png"
+      "pathImg": "/assets/Ingredients/ginger.png"
     },
     {
       "name": "Coentro",
-      "icon": "/assets/Ingredients/coriander.png"
+      "pathImg": "/assets/Ingredients/coriander.png"
     },
     {
       "name": "Manjericão",
-      "icon": "/assets/Ingredients/basil.png"
+      "pathImg": "/assets/Ingredients/basil.png"
     },
     {
       "name": "Orégano",
-      "icon": "/assets/Ingredients/oregano.png"
+      "pathImg": "/assets/Ingredients/oregano.png"
     },
     {
       "name": "Alecrim",
-      "icon": "/assets/Ingredients/rosemary.png"
+      "pathImg": "/assets/Ingredients/rosemary.png"
     },
     {
       "name": "Tomilho",
-      "icon": "/assets/Ingredients/thyme.png"
+      "pathImg": "/assets/Ingredients/thyme.png"
     },
     {
       "name": "Páprica",
-      "icon": "/assets/Ingredients/paprika.png"
+      "pathImg": "/assets/Ingredients/paprika.png"
     },
     {
       "name": "Cominho",
-      "icon": "/assets/Ingredients/cumin.png"
+      "pathImg": "/assets/Ingredients/cumin.png"
     },
     {
       "name": "Pimentão",
-      "icon": "/assets/Ingredients/bell-pepper.png"
+      "pathImg": "/assets/Ingredients/bell-pepper.png"
     },
     {
       "name": "Milho",
-      "icon": "/assets/Ingredients/corn.png"
+      "pathImg": "/assets/Ingredients/corn.png"
     },
     {
       "name": "Creme de leite",
-      "icon": "/assets/Ingredients/milk-cream.png"
+      "pathImg": "/assets/Ingredients/milk-cream.png"
     },
     {
       "name": "Queijo parmesão",
-      "icon": "/assets/Ingredients/parmesan.png"
+      "pathImg": "/assets/Ingredients/parmesan.png"
     },
     {
       "name": "Queijo muçarela",
-      "icon": "/assets/Ingredients/mozzarella.png"
+      "pathImg": "/assets/Ingredients/mozzarella.png"
     },
     {
       "name": "Queijo cheddar",
-      "icon": "/assets/Ingredients/cheddar.png"
+      "pathImg": "/assets/Ingredients/cheddar.png"
     },
     {
       "name": "Queijo cream cheese",
-      "icon": "/assets/Ingredients/cream-cheese.png"
+      "pathImg": "/assets/Ingredients/cream-cheese.png"
     },
     {
       "name": "Presunto",
-      "icon": "/assets/Ingredients/ham.png"
+      "pathImg": "/assets/Ingredients/ham.png"
     },
     {
       "name": "Peito de frango",
-      "icon": "/assets/Ingredients/chicken-breast.png"
+      "pathImg": "/assets/Ingredients/chicken-breast.png"
     },
     {
       "name": "Carne moída",
-      "icon": "/assets/Ingredients/mince.png"
+      "pathImg": "/assets/Ingredients/mince.png"
     },
     {
       "name": "Linguiça",
-      "icon": "/assets/Ingredients/sausage.png"
+      "pathImg": "/assets/Ingredients/sausage.png"
     },
     {
       "name": "Bacon",
-      "icon": "/assets/Ingredients/bacon.png"
+      "pathImg": "/assets/Ingredients/bacon.png"
     },
     {
       "name": "Camarão",
-      "icon": "/assets/Ingredients/shrimp.png"
+      "pathImg": "/assets/Ingredients/shrimp.png"
     },
     {
       "name": "Abobrinha",
-      "icon": "/assets/Ingredients/zucchini.png"
+      "pathImg": "/assets/Ingredients/zucchini.png"
     }
   ]
 }
