@@ -40,7 +40,7 @@ export const TwoHomeGrids = () => {
       <GridIngredients
         onIngredientClick={removeIngredientClick}
         listIngredients={selectedIngredients}
-        className="bg-blue-400 h-full col-span-1 overflow-auto"
+        className=" h-full col-span-1 overflow-auto"
         arrowDirection="left"
       />
     </>
