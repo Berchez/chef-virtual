@@ -46,9 +46,9 @@ export const Button = ({
           type={type}
           disabled={disabled}
           className={`
-            bg-green-500 w-32 h-12 rounded-lg hover:brightness-75
+            w-32 h-12 rounded-lg hover:brightness-75
 
-            ${disabled && 'cursor-not-allowed bg-gray-500'}
+            ${disabled ? 'cursor-not-allowed bg-gray-500' : 'bg-green-500 '}
 
             ${className}
           `}

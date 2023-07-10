@@ -45,7 +45,11 @@ export const Home = () => {
       <div className="w-full h-screen max-h-screen ">
         <Menu />
         <div className="flex flex-col grow px-16 py-8 h-full min-h-0">
-          <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-x-8 gap-y-4 h-[calc(100%-7rem)] min-h-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 text-gray-950 text-base">
+            <h1 className="col-span-1 md:col-span-2">Ingredientes disponíveis:</h1>
+            <h1 className='col-span-1'>Ingredientes selecionados:</h1>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-x-8 gap-y-4 h-[calc(100%-9rem)] min-h-0">
             <GridIngredients
               onIngredientClick={addIngredientClick}
               listIngredients={avaliableIngredients}
@@ -66,10 +70,12 @@ export const Home = () => {
             disabled={selectedIngredients.length === 0}
           />
         </div>
+
       </div>
-      <div className="text-gray-950 px-16 py-8">
+      {recipes !== '' && <div className="text-gray-950 px-16 py-8">
+        <h1 className='text-xl font-semibold'>Receitas encontradas:</h1>
         <p>{recipes}</p>
-      </div>
+      </div>}
       <Footer />
     </div>
   );

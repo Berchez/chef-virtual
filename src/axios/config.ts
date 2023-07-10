@@ -21,14 +21,13 @@ export const sendIngredientsGPT = async (
     prompt: `Liste uma série de receitas deliciosas da culinária
     brasileira que utilizem os ingredientes: ${stringIngredients}`,
     model: 'gpt-3.5-turbo-0613',
-    max_tokens: 10,
+    max_tokens: 100,
     temperature: 0,
   };
 
-  return stringIngredients;
-  // const response = await customAxios.post(
-  //   "	https://api.openai.com/v1/chat/completions",
-  //   params
-  // );
-  // return response.data.choices[0].text.trim();
+  const response = await customAxios.post(
+    "	https://api.openai.com/v1/chat/completions",
+    params
+  );
+  return response.data.choices[0].text.trim();
 };
