@@ -63,6 +63,7 @@ export const Home = () => {
             label="Buscar Receitas"
             className="self-end mt-4 w-52"
             onClick={() => handleSearchRecipesClick()}
+            disabled={selectedIngredients.length === 0}
           />
         </div>
       </div>
