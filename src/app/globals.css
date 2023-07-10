@@ -25,3 +25,53 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.6rem;
+  font-weight: bold;
+  color: #121214;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+/* Listas não ordenadas */
+ul {
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+ul li {
+  list-style-type: disc;
+  margin-bottom: 0.5em;
+}
+
+/* Listas ordenadas */
+ol {
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+ol li {
+  list-style-type: decimal;
+  margin-bottom: 0.5em;
+}

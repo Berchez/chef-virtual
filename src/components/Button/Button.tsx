@@ -36,7 +36,7 @@ export const Button = ({
               className
             }
           >
-            <h2>{label}</h2>
+            <h2 className="text-gray-50 font-medium">{label}</h2>
           </button>
         </Link>
       ) : (
@@ -53,7 +53,7 @@ export const Button = ({
             ${className}
           `}
         >
-          <h2>{label}</h2>
+          <h2 className="text-gray-50 font-medium m-0">{label}</h2>
         </button>
       )}
     </>

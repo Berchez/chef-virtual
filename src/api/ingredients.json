@@ -25,6 +25,18 @@
       "pathImg": "/assets/Ingredients/fish.png"
     },
     {
+      "name": "Chocolate em barra",
+      "pathImg": "/assets/Ingredients/chocolate.png"
+    },
+    {
+      "name": "Leite condensado",
+      "pathImg": "/assets/Ingredients/condensed-milk.png"
+    },
+    {
+      "name": "Macarrão",
+      "pathImg": "/assets/Ingredients/pasta.png"
+    },
+    {
       "name": "Banana",
       "pathImg": "/assets/Ingredients/banana.png"
     },
