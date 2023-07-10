@@ -1,29 +1,30 @@
-import axios from "axios";
-import { IngredientProps } from "../components/Ingredient/Ingredient";
+import axios from 'axios';
+import { IngredientProps } from '../components/Ingredient/Ingredient';
 
 export const customAxios = axios.create({
   headers: {
-    "Content-Type": "application/json",
-    Authorization: "Bearer " + process.env.OPENAI_API_KEY,
+    'Content-Type': 'application/json',
+    Authorization: 'Bearer ' + process.env.OPENAI_API_KEY,
   },
 });
 
 export const sendIngredientsGPT = async (
-  listIngredients: IngredientProps[]
+  listIngredients: IngredientProps[],
 ) => {
   const stringIngredients = listIngredients
     .map(function (obj) {
       return obj.name;
     })
-    .join(", ");
+    .join(', ');
 
   const params = {
     prompt: `Liste uma série de receitas deliciosas da culinária
     brasileira que utilizem os ingredientes: ${stringIngredients}`,
-    model: "gpt-3.5-turbo-0613",
+    model: 'gpt-3.5-turbo-0613',
     max_tokens: 10,
     temperature: 0,
   };
+
   return stringIngredients;
   // const response = await customAxios.post(
   //   "	https://api.openai.com/v1/chat/completions",
