@@ -25,7 +25,9 @@ export const GridIngredients = ({
         grid-cols-fluid justify-evenly text-black p-8 overflow-auto
         h-[calc(100%-3.2rem)]
         ${
-          arrowDirection === 'right' ? 'gap-x-14 gap-y-12 ' : 'gap-x-2 gap-y-2 '
+          arrowDirection === 'right'
+            ? 'md:gap-x-14 md:gap-y-12 gap-x-2 gap-y-2 '
+            : 'gap-x-2 gap-y-2 '
         }
 
         `}
