@@ -14,7 +14,7 @@ export const Home = () => {
     IngredientProps[]
   >([]);
 
-  const [recipes, setRecipes] = useState<string>('t');
+  const [recipes, setRecipes] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
 
   const handleSearchRecipesClick = async () => {
