@@ -48,12 +48,15 @@ Essas tecnologias trabalham em conjunto para oferecer uma experiência de usuár
 Vamos dar uma olhada em como usar o Chef Virtual. Suponha que você tenha alguns ingredientes disponíveis em sua cozinha, como frango, macarrão e tomate. Ao acessar o site do Chef Virtual, você selecionaria esses ingredientes na interface do usuário. Em seguida, clique no botão "Buscar Receitas". O Chef Virtual processará suas escolhas e apresentará uma lista de receitas que incorporam esses ingredientes, como macarronada com frango desfiado e salada de tomate. Você pode escolher a receita que mais lhe agrada e seguir as instruções detalhadas para prepará-la.
 
 <sub>Figura 2</sub>
+
 ![receita](https://i.imgur.com/la7blSu.png)
 
 ---
 
 ## -:telephone_receiver: Contato
+
 **E-mail:** walterfelipeberchez@outlook.com
+
 **Celular:** (35) 9 9804-2667
 
 
