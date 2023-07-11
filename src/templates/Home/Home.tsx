@@ -56,7 +56,11 @@ export const Home = () => {
         } max-h-screen `}
       >
         <Menu />
-        <div className="flex flex-col grow md:px-16 md:py-8 px-8 py-4 h-full min-h-0">
+        <div
+          className={`flex flex-col grow md:px-16 md:py-8 px-8 ${
+            recipes === '' ? 'py-8' : 'py-4'
+          } h-full min-h-0`}
+        >
           <div
             className={`grid grid-cols-1 md:grid-cols-3 w-full md:gap-x-8 md:gap-y-4 gap-x-4 gap-y-2 ${
               recipes === '' ? 'h-[calc(100%-6rem)]' : 'h-full'
@@ -77,7 +81,7 @@ export const Home = () => {
               title="Ingredientes selecionados:"
             />
           </div>
-          <div className="flex gap-x-2 items-center justify-end mt-4">
+          <div className={`flex gap-x-2 items-center justify-end mt-4 `}>
             {loading && <ClipLoader color="gray" />}
             <Button
               label="Buscar Receitas"
