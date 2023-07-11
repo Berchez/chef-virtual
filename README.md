@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# :man_cook: GAMBAR :woman_cook:
 
-## Getting Started
+---
 
-First, run the development server:
+## -:shallow_pan_of_food: Introdução
+Esse repositório contém o código do **Chef Virtual**, um aplicativo web desenvolvido em 
+TypeScript utilizando **Next.js**. O Chef Virtual é um site incrível que permite que você selecione seus ingredientes favoritos e obtenha receitas deliciosas criadas por uma **inteligência artificial**. Prepare-se para explorar o mundo da culinária de uma maneira totalmente nova!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<sub>Figura 1</sub>
+![maps](https://i.imgur.com/OkqpaqZ.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Esse repositório esta dividido em 6 partes:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Apresentação
+- Tecnologias utilizadas
+- Exemplo de uso
+- Contato
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## -:stew: Apresentação
 
-To learn more about Next.js, take a look at the following resources:
+Nesta seção apresentarei o **Chef Virtual**, um site inovador que combina a paixão pela culinária com a inteligência artificial. Com o Chef Virtual, você pode descobrir novas receitas e explorar diferentes combinações de ingredientes para criar pratos deliciosos. Seja você um cozinheiro experiente ou alguém que está começando a se aventurar na cozinha, o Chef Virtual está aqui para ajudar a tornar suas refeições mais saborosas e emocionantes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para acessá-lo, clique no link: [Chef Virtual](https://joaobianco.users.earthengine.app/view/tcc](https://chef-virtual.vercel.app/))
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## -:artificial_satellite:	Tecnologias utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No desenvolvimento do Chef Virtual, foram utilizadas várias tecnologias avançadas para criar uma experiência excepcional para os usuários. Algumas das principais tecnologias empregadas incluem:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **TypeScript:** O Chef Virtual foi desenvolvido utilizando TypeScript, uma linguagem de programação que adiciona recursos de tipagem estática ao JavaScript, proporcionando um código mais robusto e legível; 
+
+- **React:** A estrutura React foi utilizada para construir a interface do usuário interativa e responsiva do Chef Virtual. O React permite a criação de componentes reutilizáveis e facilita o gerenciamento eficiente do estado da aplicação; 
+
+- **Next.js:** O Chef Virtual é construído em cima do Next.js, um framework React que oferece recursos avançados, como renderização do lado do servidor, geração de páginas estáticas e otimização de desempenho. Esses recursos permitem uma experiência de usuário rápida e suave;
+
+- **Tailwind CSS:** Para estilizar o Chef Virtual, utilizamos o Tailwind CSS, um framework CSS altamente configurável e baseado em classes utilitárias. O Tailwind CSS permite o desenvolvimento rápido e flexível, fornecendo uma ampla gama de estilos pré-definidos e personalizáveis;
+
+- **GPT-3.5:** O coração do Chef Virtual é a utilização da poderosa inteligência artificial GPT-3.5, desenvolvida pela OpenAI. O GPT-3.5 é um modelo de linguagem avançado que utiliza aprendizado de máquina para gerar receitas personalizadas com base nos ingredientes selecionados pelos usuários. Ele é capaz de entender a linguagem natural e produzir resultados relevantes e criativos.
+
+Essas tecnologias trabalham em conjunto para oferecer uma experiência de usuário excepcional no Chef Virtual, tornando-o um site moderno, responsivo e inteligente. A combinação de TypeScript, React, Next.js, Tailwind CSS e GPT-3.5 nos permite fornecer uma plataforma eficiente, intuitiva e personalizada para todos os amantes da culinária.
+
+---
+
+## -:open_mouth: Exemplo de uso
+Vamos dar uma olhada em como usar o Chef Virtual. Suponha que você tenha alguns ingredientes disponíveis em sua cozinha, como frango, macarrão e tomate. Ao acessar o site do Chef Virtual, você selecionaria esses ingredientes na interface do usuário. Em seguida, clique no botão "Buscar Receitas". O Chef Virtual processará suas escolhas e apresentará uma lista de receitas que incorporam esses ingredientes, como macarronada com frango desfiado e salada de tomate. Você pode escolher a receita que mais lhe agrada e seguir as instruções detalhadas para prepará-la.
+
+<sub>Figura 2</sub>
+![receita](https://i.imgur.com/la7blSu.png)
+
+---
+
+## -:telephone_receiver: Contato
+**E-mail:** walterfelipeberchez@outlook.com
+**Celular:** (35) 9 9804-2667
+
+
+
+
+
+
