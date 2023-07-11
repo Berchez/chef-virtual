@@ -9,7 +9,7 @@ TypeScript utilizando **Next.js**. O Chef Virtual é um site incrível que permi
 <sub>Figura 1</sub>
 ![maps](https://i.imgur.com/OkqpaqZ.png)
 
-Esse repositório esta dividido em 6 partes:
+Esse repositório esta dividido em 4 partes:
 
 - Apresentação
 - Tecnologias utilizadas
