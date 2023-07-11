@@ -15,7 +15,7 @@ export const Home = () => {
   >([]);
 
   const [recipes, setRecipes] = useState<string>('t');
-  const [loading, setLoading] = useState<boolean>(true);
+  const [loading, setLoading] = useState<boolean>(false);
 
   const handleSearchRecipesClick = async () => {
     setLoading(true);
