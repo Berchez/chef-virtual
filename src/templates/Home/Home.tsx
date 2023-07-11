@@ -52,7 +52,7 @@ export const Home = () => {
     <div className="flex flex-col bg-gray-200">
       <div
         className={`w-full ${
-          recipes === '' ? 'h-screen' : 'h-[90vh]'
+          recipes === '' ? 'h-[calc(100vh-2.5rem)]' : 'h-[90vh]'
         } max-h-screen `}
       >
         <Menu />
@@ -81,7 +81,7 @@ export const Home = () => {
               title="Ingredientes selecionados:"
             />
           </div>
-          <div className={`flex gap-x-2 items-center justify-end mt-4 `}>
+          <div className={`flex gap-x-2 items-center justify-end md:mt-0 mt-4`}>
             {loading && <ClipLoader color="gray" />}
             <Button
               label="Buscar Receitas"

@@ -18,7 +18,7 @@ export const GridIngredients = ({
 }: GridIngredientsProps) => {
   return (
     <div className={`${className} overflow-hidden`}>
-      <h1>{title}</h1>
+      <h1 className='mt-0'>{title}</h1>
       <div
         {...props}
         className={`w-full bg-red-50 border-2 border-slate-400 border-dashed grid
