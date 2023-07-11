@@ -1,10 +1,11 @@
-import React from "react";
-import { Ingredient, IngredientProps } from "@/components/Ingredient";
+import React from 'react';
+import { Ingredient, IngredientProps } from '@/components/Ingredient';
 
-interface GridIngredientsProps extends React.ComponentPropsWithoutRef<"div"> {
+interface GridIngredientsProps extends React.ComponentPropsWithoutRef<'div'> {
   onIngredientClick: (ingredient: IngredientProps) => void;
   listIngredients: IngredientProps[];
-  arrowDirection: "right" | "left";
+  arrowDirection: 'right' | 'left';
+  title: string;
 }
 
 export const GridIngredients = ({
@@ -12,29 +13,33 @@ export const GridIngredients = ({
   onIngredientClick,
   listIngredients,
   arrowDirection,
+  title,
   ...props
 }: GridIngredientsProps) => {
   return (
-    <div
-      {...props}
-      className={`w-full h-full bg-red-50 border-2 border-slate-400 border-dashed grid
-        grid-cols-fluid justify-evenly text-black p-8
-
+    <div className={`${className} overflow-hidden`}>
+      <h1>{title}</h1>
+      <div
+        {...props}
+        className={`w-full bg-red-50 border-2 border-slate-400 border-dashed grid
+        grid-cols-fluid justify-evenly text-black p-8 overflow-auto
+        h-[calc(100%-3.2rem)]
         ${
-          arrowDirection === "right" ? "gap-x-14 gap-y-12 " : "gap-x-2 gap-y-2 "
+          arrowDirection === 'right' ? 'gap-x-14 gap-y-12 ' : 'gap-x-2 gap-y-2 '
         }
 
-        ${className}`}
-    >
-      {listIngredients.map((ingredient, key) => (
-        <Ingredient
-          key={key}
-          onClick={() => onIngredientClick(ingredient)}
-          name={ingredient.name}
-          pathImg={ingredient.pathImg}
-          arrowDirection={arrowDirection}
-        />
-      ))}
+        `}
+      >
+        {listIngredients.map((ingredient, key) => (
+          <Ingredient
+            key={key}
+            onClick={() => onIngredientClick(ingredient)}
+            name={ingredient.name}
+            pathImg={ingredient.pathImg}
+            arrowDirection={arrowDirection}
+          />
+        ))}
+      </div>
     </div>
   );
 };

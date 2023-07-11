@@ -44,27 +44,21 @@ export const Home = () => {
     <div className="flex flex-col bg-gray-200">
       <div className="w-full h-screen max-h-screen ">
         <Menu />
-        <div className="flex flex-col grow px-16 py-8 h-full min-h-0">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 text-gray-950 text-base">
-            <h1 className="col-span-1 md:col-span-2 font-medium m-0">
-              Ingredientes disponíveis:
-            </h1>
-            <h1 className="col-span-1 font-medium m-0">
-              Ingredientes selecionados:
-            </h1>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-x-8 gap-y-4 h-[calc(100%-9rem)] min-h-0">
+        <div className="flex flex-col grow md:px-16 md:py-8 px-8 py-4 h-full min-h-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 w-full md:gap-x-8 md:gap-y-4 gap-x-4 gap-y-2 h-[calc(100%-10rem)] min-h-0">
             <GridIngredients
+              title="Ingredientes disponíveis:"
               onIngredientClick={addIngredientClick}
               listIngredients={avaliableIngredients}
-              className="col-span-1 md:col-span-2 overflow-auto"
+              className="col-span-1 md:col-span-2"
               arrowDirection="right"
             />
             <GridIngredients
               onIngredientClick={removeIngredientClick}
               listIngredients={selectedIngredients}
-              className=" h-full col-span-1 overflow-auto"
+              className=" h-full col-span-1"
               arrowDirection="left"
+              title="Ingredientes selecionados:"
             />
           </div>
           <Button
@@ -77,7 +71,7 @@ export const Home = () => {
       </div>
       {recipes !== '' && (
         <div
-          className="text-gray-950 px-16 py-8"
+          className="text-gray-950 md:px-16 md:py-8 px-8 py-4"
           dangerouslySetInnerHTML={{ __html: recipes }}
         />
       )}
