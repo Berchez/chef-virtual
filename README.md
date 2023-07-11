@@ -22,7 +22,7 @@ Esse repositório esta dividido em 6 partes:
 
 Nesta seção apresentarei o **Chef Virtual**, um site inovador que combina a paixão pela culinária com a inteligência artificial. Com o Chef Virtual, você pode descobrir novas receitas e explorar diferentes combinações de ingredientes para criar pratos deliciosos. Seja você um cozinheiro experiente ou alguém que está começando a se aventurar na cozinha, o Chef Virtual está aqui para ajudar a tornar suas refeições mais saborosas e emocionantes.
 
-Para acessá-lo, clique no link: [Chef Virtual](https://joaobianco.users.earthengine.app/view/tcc](https://chef-virtual.vercel.app/))
+Para acessá-lo, clique no link: [Chef Virtual](https://chef-virtual.vercel.app/)
 
 ---
 
