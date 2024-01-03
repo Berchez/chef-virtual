@@ -2,7 +2,7 @@
 
 ---
 
-## -:shallow_pan_of_food: Introdução
+## - :shallow_pan_of_food: Introdução
 
 Esse repositório contém o código do **Chef Virtual**, um aplicativo web
 desenvolvido em TypeScript utilizando **Next.js**. O Chef Virtual é um site
@@ -21,7 +21,7 @@ Esse repositório esta dividido em 4 partes:
 
 ---
 
-## -:stew: Apresentação
+## - :stew: Apresentação
 
 Nesta seção apresentarei o **Chef Virtual**, um site inovador que combina a
 paixão pela culinária com a inteligência artificial. Com o Chef Virtual, você
@@ -34,7 +34,7 @@ Para acessá-lo, clique no link: [Chef Virtual](https://chef-virtual.vercel.app/
 
 ---
 
-## -:computer: Tecnologias utilizadas
+## - :computer: Tecnologias utilizadas
 
 No desenvolvimento do Chef Virtual, foram utilizadas várias tecnologias
 avançadas para criar uma experiência excepcional para os usuários. Algumas das
@@ -74,7 +74,7 @@ todos os amantes da culinária.
 
 ---
 
-## -:open_mouth: Exemplo de uso
+## - :open_mouth: Exemplo de uso
 
 Vamos dar uma olhada em como usar o Chef Virtual. Suponha que você tenha alguns
 ingredientes disponíveis em sua cozinha, como frango, macarrão e tomate. Ao
@@ -91,7 +91,7 @@ detalhadas para prepará-la.
 
 ---
 
-## -:telephone_receiver: Contato
+## - :telephone_receiver: Contato
 
 **E-mail:** walterfelipeberchez@outlook.com
 
