@@ -18,7 +18,7 @@ export const GridIngredients = ({
 }: GridIngredientsProps) => {
   return (
     <div className={`${className} overflow-hidden`}>
-      <h1 className='mt-0'>{title}</h1>
+      <h1 className="mt-0">{title}</h1>
       <div
         {...props}
         className={`w-full bg-red-50 border-2 border-slate-400 border-dashed grid
@@ -32,9 +32,9 @@ export const GridIngredients = ({
 
         `}
       >
-        {listIngredients.map((ingredient, key) => (
+        {listIngredients.map((ingredient) => (
           <Ingredient
-            key={key}
+            key={ingredient.name}
             onClick={() => onIngredientClick(ingredient)}
             name={ingredient.name}
             pathImg={ingredient.pathImg}

@@ -1,52 +1,23 @@
 'use client';
 import { Footer } from '@/components/Footer';
 import { Menu } from '@/components/Menu/Menu';
-import React, { useState } from 'react';
-import ingredientsApi from '../../api/ingredients.json';
-import { IngredientProps } from '@/components/Ingredient';
-import { sendIngredientsGPT } from '@/axios/config';
+import React from 'react';
 import { GridIngredients } from './templates/GridIngredients';
 import { Button } from '@/components/Button';
 import { ClipLoader } from 'react-spinners';
+import useHome from './useHome';
+import Recipes from './templates/Recipes';
 
 export const Home = () => {
-  const [selectedIngredients, setSelectedIngredients] = useState<
-    IngredientProps[]
-  >([]);
-
-  const [recipes, setRecipes] = useState<string>('');
-  const [loading, setLoading] = useState<boolean>(false);
-
-  const handleSearchRecipesClick = async () => {
-    setLoading(true);
-    try {
-      const textRecipes = await sendIngredientsGPT(selectedIngredients);
-      setRecipes(textRecipes);
-      setLoading(false);
-    } catch {
-      setLoading(false);
-    }
-  };
-
-  // Função para adicionar um ingrediente à lista quando clicado
-  const addIngredientClick = (ingredient: IngredientProps) => {
-    setSelectedIngredients((prevSelectedIngredients) => [
-      ...prevSelectedIngredients,
-      ingredient,
-    ]);
-  };
-
-  // Função para remover um ingrediente à lista quando clicado
-  const removeIngredientClick = (ingredient: IngredientProps) => {
-    setSelectedIngredients((prevSelectedIngredients) =>
-      prevSelectedIngredients.filter((item) => item !== ingredient),
-    );
-  };
-
-  const allIngredientsArray = ingredientsApi.ingredients;
-  const avaliableIngredients = allIngredientsArray.filter(
-    (ingredient) => !selectedIngredients.includes(ingredient),
-  );
+  const {
+    recipes,
+    loading,
+    handleSearchRecipesClick,
+    addIngredientClick,
+    removeIngredientClick,
+    avaliableIngredients,
+    selectedIngredients,
+  } = useHome();
 
   return (
     <div className="flex flex-col bg-gray-200">
@@ -92,16 +63,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      {recipes !== '' && (
-        <>
-          <div
-            className="text-gray-950 md:px-16 px-8 md:mt-0 mt-8 mb-8"
-            dangerouslySetInnerHTML={{
-              __html: '<h1>Receita(s) gerada(s):</h1>' + recipes,
-            }}
-          />
-        </>
-      )}
+      {recipes !== '' && <Recipes recipesHtml={recipes} />}
       <Footer />
     </div>
   );
