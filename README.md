@@ -59,8 +59,8 @@ principais tecnologias empregadas incluem:
   Tailwind CSS permite o desenvolvimento rápido e flexível, fornecendo uma ampla
   gama de estilos pré-definidos e personalizáveis;
 
-- **GPT-3.5:** O coração do Chef Virtual é a utilização da poderosa inteligência
-  artificial GPT-3.5, desenvolvida pela OpenAI. O GPT-3.5 é um modelo de
+- **GPT-4o-mini:** O coração do Chef Virtual é a utilização da poderosa inteligência
+  artificial GPT-4o-mini, desenvolvida pela OpenAI. O GPT-4o-mini é um modelo de
   linguagem avançado que utiliza aprendizado de máquina para gerar receitas
   personalizadas com base nos ingredientes selecionados pelos usuários. Ele é
   capaz de entender a linguagem natural e produzir resultados relevantes e
@@ -68,7 +68,7 @@ principais tecnologias empregadas incluem:
 
 Essas tecnologias trabalham em conjunto para oferecer uma experiência de usuário
 excepcional no Chef Virtual, tornando-o um site moderno, responsivo e
-inteligente. A combinação de TypeScript, React, Next.js, Tailwind CSS e GPT-3.5
+inteligente. A combinação de TypeScript, React, Next.js, Tailwind CSS e GPT-4o-mini
 nos permite fornecer uma plataforma eficiente, intuitiva e personalizada para
 todos os amantes da culinária.
 
