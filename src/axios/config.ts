@@ -18,7 +18,7 @@ export const sendIngredientsGPT = async (
     .join(', ');
 
   const params = {
-    model: 'gpt-3.5-turbo-0613',
+    model: 'gpt-4o-mini',
     messages: [
       {
         role: 'user',
@@ -35,7 +35,7 @@ export const sendIngredientsGPT = async (
   };
 
   const response = await customAxios.post(
-    '	https://api.openai.com/v1/chat/completions',
+    'https://api.openai.com/v1/chat/completions',
     params,
   );
   return response.data.choices[0].message.content;
