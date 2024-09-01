@@ -2,14 +2,21 @@ import { useEffect, useState } from 'react';
 import ingredientsApi from '../../api/ingredients.json';
 import { IngredientProps } from '@/components/Ingredient';
 import { sendIngredientsGPT } from '@/axios/config';
+import { useDispatch, useSelector } from 'react-redux';
+import {
+  addIngredient,
+  removeIngredient,
+} from '@/redux/selected-ingredients/actions';
+import { IRootState } from '@/redux/root-reducer';
 
 const useHome = () => {
-  const [selectedIngredients, setSelectedIngredients] = useState<
-    IngredientProps[]
-  >([]);
+  const { ingredients: selectedIngredients } = useSelector(
+    (rootReducer: IRootState) => rootReducer.selectedIngredientsReducer,
+  );
 
   const [recipes, setRecipes] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
+  const dispatch = useDispatch();
 
   const formatRecipe = (recipe: string) => {
     const withoutSlashN = recipe.replace('', ' ');
@@ -36,16 +43,11 @@ const useHome = () => {
   }, [recipes]);
 
   const addIngredientClick = (ingredient: IngredientProps) => {
-    setSelectedIngredients((prevSelectedIngredients) => [
-      ...prevSelectedIngredients,
-      ingredient,
-    ]);
+    dispatch(addIngredient(ingredient));
   };
 
   const removeIngredientClick = (ingredient: IngredientProps) => {
-    setSelectedIngredients((prevSelectedIngredients) =>
-      prevSelectedIngredients.filter((item) => item !== ingredient),
-    );
+    dispatch(removeIngredient(ingredient));
   };
 
   const allIngredientsArray = ingredientsApi.ingredients;
