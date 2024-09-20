@@ -8,7 +8,7 @@ This repository contains the code for **Chef Virtual**, a web application develo
 
 <sub>Figure 1</sub> 
 
-![maps](https://i.imgur.com/OkqpaqZ.png)
+![desktop](https://i.imgur.com/qO8RnGA.png)
 
 This repository is divided into four parts:
 
@@ -50,7 +50,7 @@ Let's take a look at how to use Chef Virtual. Suppose you have some ingredients 
 
 <sub>Figure 2</sub>     
 
-![receita](https://i.imgur.com/la7blSu.png)
+![mobile](https://i.imgur.com/ckvISvR.png)
 
 ---
 
