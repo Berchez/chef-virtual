@@ -2,97 +2,60 @@
 
 ---
 
-## - :shallow_pan_of_food: Introdução
+## - :shallow_pan_of_food: Introduction
 
-Esse repositório contém o código do **Chef Virtual**, um aplicativo web
-desenvolvido em TypeScript utilizando **Next.js**. O Chef Virtual é um site
-incrível que permite que você selecione seus ingredientes favoritos e obtenha
-receitas deliciosas criadas por uma **inteligência artificial**. Prepare-se para
-explorar o mundo da culinária de uma maneira totalmente nova!
+This repository contains the code for **Chef Virtual**, , a web application developed in TypeScript using **React and Next.js**. Chef Virtual is an amazing website that allows you to select your favorite ingredients and get delicious recipes created by an **artificial intelligence**. Get ready to explore the world of cooking in a whole new way!
 
-<sub>Figura 1</sub> ![maps](https://i.imgur.com/OkqpaqZ.png)
+<sub>Figure 1</sub> 
 
-Esse repositório esta dividido em 4 partes:
+![maps](https://i.imgur.com/OkqpaqZ.png)
 
-- Apresentação
-- Tecnologias utilizadas
-- Exemplo de uso
-- Contato
+This repository is divided into four parts:
+
+- Presentation
+- Technologies used
+- Usage example
+- Contact
 
 ---
 
-## - :stew: Apresentação
+## - :stew: Presentation
+In this section, I will present **Chef Virtual**, , an innovative website that combines the passion for cooking with artificial intelligence. With Chef Virtual, you can discover new recipes and explore different ingredient combinations to create delicious dishes. Whether you're an experienced cook or just starting to venture into the kitchen, Chef Virtual is here to help make your meals more flavorful and exciting.
 
-Nesta seção apresentarei o **Chef Virtual**, um site inovador que combina a
-paixão pela culinária com a inteligência artificial. Com o Chef Virtual, você
-pode descobrir novas receitas e explorar diferentes combinações de ingredientes
-para criar pratos deliciosos. Seja você um cozinheiro experiente ou alguém que
-está começando a se aventurar na cozinha, o Chef Virtual está aqui para ajudar a
-tornar suas refeições mais saborosas e emocionantes.
-
-Para acessá-lo, clique no link: [Chef Virtual](https://chef-virtual.vercel.app/)
+To access it, click on the link: [Chef Virtual](https://chef-virtual.vercel.app/)
 
 ---
 
-## - :computer: Tecnologias utilizadas
+## - :computer: Technologies used
 
-No desenvolvimento do Chef Virtual, foram utilizadas várias tecnologias
-avançadas para criar uma experiência excepcional para os usuários. Algumas das
-principais tecnologias empregadas incluem:
+In the development of Chef Virtual, several advanced technologies were used to create an exceptional user experience. Some of the main technologies employed include:
 
-- **TypeScript:** O Chef Virtual foi desenvolvido utilizando TypeScript, uma
-  linguagem de programação que adiciona recursos de tipagem estática ao
-  JavaScript, proporcionando um código mais robusto e legível;
+- **TypeScript:** Chef Virtual was developed using TypeScript, a programming language that adds static typing features to JavaScript, providing more robust and readable code;
 
-- **React:** A estrutura React foi utilizada para construir a interface do
-  usuário interativa e responsiva do Chef Virtual. O React permite a criação de
-  componentes reutilizáveis e facilita o gerenciamento eficiente do estado da
-  aplicação;
+- **React:** The React framework was used to build Chef Virtual's interactive and responsive user interface. React allows the creation of reusable components and facilitates efficient state management of the application;
 
-- **Next.js:** O Chef Virtual é construído em cima do Next.js, um framework
-  React que oferece recursos avançados, como renderização do lado do servidor,
-  geração de páginas estáticas e otimização de desempenho. Esses recursos
-  permitem uma experiência de usuário rápida e suave;
+- **Next.js:** Chef Virtual is built on Next.js, a React framework that offers advanced features such as server-side rendering, static page generation, and performance optimization. These features enable a fast and smooth user experience;
 
-- **Tailwind CSS:** Para estilizar o Chef Virtual, utilizamos o Tailwind CSS, um
-  framework CSS altamente configurável e baseado em classes utilitárias. O
-  Tailwind CSS permite o desenvolvimento rápido e flexível, fornecendo uma ampla
-  gama de estilos pré-definidos e personalizáveis;
+- **Tailwind CSS:** To style Chef Virtual, we used Tailwind CSS, a highly configurable utility-first CSS framework. Tailwind CSS allows for fast and flexible development, providing a wide range of pre-defined and customizable styles;
 
-- **GPT-4o-mini:** O coração do Chef Virtual é a utilização da poderosa inteligência
-  artificial GPT-4o-mini, desenvolvida pela OpenAI. O GPT-4o-mini é um modelo de
-  linguagem avançado que utiliza aprendizado de máquina para gerar receitas
-  personalizadas com base nos ingredientes selecionados pelos usuários. Ele é
-  capaz de entender a linguagem natural e produzir resultados relevantes e
-  criativos.
+- **GPT-4o-mini:** The heart of Chef Virtual is the use of the powerful GPT-4o-mini artificial intelligence, developed by OpenAI. GPT-4o-mini is an advanced language model that uses machine learning to generate personalized recipes based on the ingredients selected by users. It is capable of understanding natural language and producing relevant and creative results.
 
-Essas tecnologias trabalham em conjunto para oferecer uma experiência de usuário
-excepcional no Chef Virtual, tornando-o um site moderno, responsivo e
-inteligente. A combinação de TypeScript, React, Next.js, Tailwind CSS e GPT-4o-mini
-nos permite fornecer uma plataforma eficiente, intuitiva e personalizada para
-todos os amantes da culinária.
+These technologies work together to offer an exceptional user experience on Chef Virtual, making it a modern, responsive, and intelligent website. The combination of TypeScript, React, Next.js, Tailwind CSS, and GPT-4o-mini allows us to provide an efficient, intuitive, and personalized platform for all cooking enthusiasts.
 
 ---
 
-## - :open_mouth: Exemplo de uso
+## - :open_mouth: Usage example
 
-Vamos dar uma olhada em como usar o Chef Virtual. Suponha que você tenha alguns
-ingredientes disponíveis em sua cozinha, como frango, macarrão e tomate. Ao
-acessar o site do Chef Virtual, você selecionaria esses ingredientes na
-interface do usuário. Em seguida, clique no botão "Buscar Receitas". O Chef
-Virtual processará suas escolhas e apresentará uma lista de receitas que
-incorporam esses ingredientes, como macarronada com frango desfiado e salada de
-tomate. Você pode escolher a receita que mais lhe agrada e seguir as instruções
-detalhadas para prepará-la.
+Let's take a look at how to use Chef Virtual. Suppose you have some ingredients available in your kitchen, such as chicken, pasta, and tomatoes. When you access the Chef Virtual website, you would select these ingredients on the user interface. Then, click the "Search Recipes" button. Chef Virtual will process your selections and present a list of recipes incorporating those ingredients, such as shredded chicken pasta and tomato salad. You can choose the recipe that appeals to you the most and follow the detailed instructions to prepare it.
 
-<sub>Figura 2</sub>
+<sub>Figure 2</sub>     
 
 ![receita](https://i.imgur.com/la7blSu.png)
 
 ---
 
-## - :telephone_receiver: Contato
+## - :telephone_receiver: Contact
 
 **E-mail:** walterfelipeberchez@outlook.com
 
-**Celular:** (35) 9 9804-2667
+**Phone:** +55 (35) 9 9804-2667
