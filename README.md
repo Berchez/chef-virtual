@@ -4,7 +4,7 @@
 
 ## - :shallow_pan_of_food: Introduction
 
-This repository contains the code for **Chef Virtual**, , a web application developed in TypeScript using **React and Next.js**. Chef Virtual is an amazing website that allows you to select your favorite ingredients and get delicious recipes created by an **artificial intelligence**. Get ready to explore the world of cooking in a whole new way!
+This repository contains the code for **Chef Virtual**, a web application developed in TypeScript using **React and Next.js**. Chef Virtual is an amazing website that allows you to select your favorite ingredients and get delicious recipes created by an **artificial intelligence**. Get ready to explore the world of cooking in a whole new way!
 
 <sub>Figure 1</sub> 
 
