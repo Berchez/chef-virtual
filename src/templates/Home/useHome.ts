@@ -11,8 +11,7 @@ import { IRootState } from '@/redux/root-reducer';
 import { useLocale, useTranslations } from 'next-intl';
 
 const useHome = () => {
-  const t = useTranslations('Home');
-  const tGemini = useTranslations('Gemini');
+  const t = useTranslations('Gemini');
   const locale = useLocale();
   const { ingredients: selectedIngredients } = useSelector(
     (rootReducer: IRootState) => rootReducer.selectedIngredientsReducer,
@@ -35,7 +34,7 @@ const useHome = () => {
         .map((obj) => obj.name)
         .join(', ');
 
-      const prompt = tGemini('prompt', { ingredients: stringIngredients });
+      const prompt = t('prompt', { ingredients: stringIngredients });
 
       const textRecipes = await sendIngredientsGemini(prompt);
       const formattedRecipe = formatRecipe(textRecipes);
