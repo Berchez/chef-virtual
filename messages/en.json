@@ -78,6 +78,6 @@
     "Abobrinha": "Zucchini"
   },
   "Gemini": {
-    "prompt": "List a series of delicious cuisine recipes using the ingredients: {ingredients}. Return your response entirely in HTML format inside a div. Important: return it in english"
+    "prompt": "You are a renowned Chef. Based on the following ingredients (provided in Portuguese): {ingredients}, create 3 creative and detailed recipes. Instructions:\n1. Use a professional and inspiring tone.\n2. Each recipe must have an appetizing name, an ingredients list, and step-by-step preparation instructions.\n3. Provide a 'Chef's Tip' for each dish.\n4. Return the response entirely in HTML format without code blocks (Markdown), using only a <div> structure with <h2> for titles and <ul>/<li> for lists.\n5. The language of the entire response MUST be English, despite the ingredients being provided in Portuguese."
   }
 }

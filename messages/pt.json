@@ -78,6 +78,6 @@
     "Abobrinha": "Abobrinha"
   },
   "Gemini": {
-    "prompt": "Liste uma série de receitas deliciosas da culinária brasileira que utilizem os ingredientes: {ingredients}. Devolva inteiramente sua resposta em formato html dentro de uma div."
+    "prompt": "Você é um Chef de Cozinha renomado especialista em culinária brasileira. Com base nos seguintes ingredientes (fornecidos em português): {ingredients}, crie 3 receitas criativas e detalhadas. Instruções:\n1. Use um tom profissional e inspirador.\n2. Cada receita deve ter um nome apetitoso, lista de ingredientes e modo de preparo passo a passo.\n3. Dê uma dica de Chef para cada prato.\n4. Devolva a resposta inteiramente em formato HTML sem blocos de código (Markdown), apenas a estrutura <div> com <h2> para títulos e <ul>/<li> para listas.\n5. O idioma de toda a resposta deve ser o Português."
   }
 }
