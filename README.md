@@ -38,9 +38,9 @@ In the development of Chef Virtual, several advanced technologies were used to c
 
 - **Tailwind CSS:** To style Chef Virtual, we used Tailwind CSS, a highly configurable utility-first CSS framework. Tailwind CSS allows for fast and flexible development, providing a wide range of pre-defined and customizable styles;
 
-- **GPT-4o-mini:** The heart of Chef Virtual is the use of the powerful GPT-4o-mini artificial intelligence, developed by OpenAI. GPT-4o-mini is an advanced language model that uses machine learning to generate personalized recipes based on the ingredients selected by users. It is capable of understanding natural language and producing relevant and creative results.
+- **Gemini 1.5 Pro:** The heart of Chef Virtual is the use of the powerful Gemini 1.5 Pro artificial intelligence, developed by Google. Gemini 1.5 Pro is an advanced language model that uses machine learning to generate personalized recipes based on the ingredients selected by users. It is capable of understanding natural language and producing relevant and creative results.
 
-These technologies work together to offer an exceptional user experience on Chef Virtual, making it a modern, responsive, and intelligent website. The combination of TypeScript, React, Next.js, Tailwind CSS, and GPT-4o-mini allows us to provide an efficient, intuitive, and personalized platform for all cooking enthusiasts.
+These technologies work together to offer an exceptional user experience on Chef Virtual, making it a modern, responsive, and intelligent website. The combination of TypeScript, React, Next.js, Tailwind CSS, and Gemini 1.5 Pro allows us to provide an efficient, intuitive, and personalized platform for all cooking enthusiasts.
 
 ---
 

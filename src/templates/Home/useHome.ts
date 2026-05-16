@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ingredientsApi from '../../api/ingredients.json';
 import { IngredientProps } from '@/components/Ingredient';
-import { sendIngredientsGPT } from '@/axios/config';
+import { sendIngredientsGemini } from '@/services/gemini';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   addIngredient,
@@ -27,7 +27,7 @@ const useHome = () => {
   const handleSearchRecipesClick = async () => {
     setLoading(true);
     try {
-      const textRecipes = await sendIngredientsGPT(selectedIngredients);
+      const textRecipes = await sendIngredientsGemini(selectedIngredients);
       const formattedRecipe = formatRecipe(textRecipes);
       setRecipes(formattedRecipe);
     } finally {
