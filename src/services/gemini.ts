@@ -5,7 +5,6 @@ const genAI = new GoogleGenerativeAI(
 );
 
 export const sendIngredientsGemini = async (prompt: string) => {
-  console.log('walter', prompt);
   const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite' });
 
   const result = await model.generateContent(prompt);
