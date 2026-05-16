@@ -7,8 +7,10 @@ import { Button } from '@/components/Button';
 import { ClipLoader } from 'react-spinners';
 import useHome from './useHome';
 import Recipes from './templates/Recipes';
+import { useTranslations } from 'next-intl';
 
 export const Home = () => {
+  const t = useTranslations('Home');
   const {
     recipes,
     loading,
@@ -38,7 +40,7 @@ export const Home = () => {
             } min-h-0`}
           >
             <GridIngredients
-              title="Ingredientes disponíveis:"
+              title={t('availableIngredients')}
               onIngredientClick={addIngredientClick}
               listIngredients={avaliableIngredients}
               className="col-span-1 md:col-span-2"
@@ -49,13 +51,13 @@ export const Home = () => {
               listIngredients={selectedIngredients}
               className=" h-full col-span-1"
               arrowDirection="left"
-              title="Ingredientes selecionados:"
+              title={t('selectedIngredients')}
             />
           </div>
           <div className={`flex gap-x-2 items-center justify-end md:mt-0 mt-4`}>
             {loading && <ClipLoader color="gray" />}
             <Button
-              label="Buscar Receitas"
+              label={loading ? t('searching') : t('searchButton')}
               className="self-end w-52"
               onClick={() => handleSearchRecipesClick()}
               disabled={selectedIngredients.length === 0}

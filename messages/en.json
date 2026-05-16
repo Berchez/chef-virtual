@@ -1,0 +1,83 @@
+{
+  "Menu": {
+    "title": "Chef Virtual"
+  },
+  "Footer": {
+    "copyright": "Copyright © {year} Chef Virtual"
+  },
+  "Home": {
+    "availableIngredients": "Available ingredients:",
+    "selectedIngredients": "Selected ingredients:",
+    "searchButton": "Search Recipes",
+    "searching": "Searching..."
+  },
+  "Recipes": {
+    "generatedTitle": "Generated recipe(s):"
+  },
+  "Ingredients": {
+    "Arroz": "Rice",
+    "Feijão": "Beans",
+    "Carne bovina": "Beef",
+    "Carne de frango": "Chicken",
+    "Carne suína": "Pork",
+    "Peixe": "Fish",
+    "Chocolate em barra": "Chocolate bar",
+    "Leite condensado": "Condensed milk",
+    "Macarrão": "Pasta",
+    "Banana": "Banana",
+    "Laranja": "Orange",
+    "Abacaxi": "Pineapple",
+    "Batata": "Potato",
+    "Cenoura": "Carrot",
+    "Carne seca": "Dried meat",
+    "Mandioca": "Cassava",
+    "Sal": "Salt",
+    "Açúcar": "Sugar",
+    "Farinha de trigo": "Wheat flour",
+    "Manteiga": "Butter",
+    "Leite": "Milk",
+    "Ovos": "Eggs",
+    "Fermento em pó": "Baking powder",
+    "Óleo vegetal": "Vegetable oil",
+    "Chocolate em pó": "Cocoa powder",
+    "Cebola": "Onion",
+    "Alho": "Garlic",
+    "Tomate": "Tomato",
+    "Pimenta": "Pepper",
+    "Limão": "Lemon",
+    "Salsinha": "Parsley",
+    "Cebolinha": "Chives",
+    "Azeite de oliva": "Olive oil",
+    "Vinagre": "Vinegar",
+    "Mostarda": "Mustard",
+    "Molho de soja": "Soy sauce",
+    "Mel": "Honey",
+    "Canela": "Cinnamon",
+    "Noz-moscada": "Nutmeg",
+    "Gengibre": "Ginger",
+    "Coentro": "Coriander",
+    "Manjericão": "Basil",
+    "Orégano": "Oregano",
+    "Alecrim": "Rosemary",
+    "Tomilho": "Thyme",
+    "Páprica": "Paprika",
+    "Cominho": "Cumin",
+    "Pimentão": "Bell pepper",
+    "Milho": "Corn",
+    "Creme de leite": "Heavy cream",
+    "Queijo parmesão": "Parmesan cheese",
+    "Queijo muçarela": "Mozzarella cheese",
+    "Queijo cheddar": "Cheddar cheese",
+    "Queijo cream cheese": "Cream cheese",
+    "Presunto": "Ham",
+    "Peito de frango": "Chicken breast",
+    "Carne moída": "Ground beef",
+    "Linguiça": "Sausage",
+    "Bacon": "Bacon",
+    "Camarão": "Shrimp",
+    "Abobrinha": "Zucchini"
+  },
+  "Gemini": {
+    "prompt": "List a series of delicious cuisine recipes using the ingredients: {ingredients}. Return your response entirely in HTML format inside a div. Important: return it in english"
+  }
+}

@@ -1,7 +1,7 @@
 'use client';
 import { Provider } from 'react-redux';
-import { Home } from '../templates/Home';
-import store from '../redux/store';
+import { Home } from '@/templates/Home';
+import store from '@/redux/store';
 
 export default function HomePage() {
   return (

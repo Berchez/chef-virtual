@@ -1,0 +1,83 @@
+{
+  "Menu": {
+    "title": "Chef Virtual"
+  },
+  "Footer": {
+    "copyright": "Copyright © {year} Chef Virtual"
+  },
+  "Home": {
+    "availableIngredients": "Ingredientes disponíveis:",
+    "selectedIngredients": "Ingredientes selecionados:",
+    "searchButton": "Buscar Receitas",
+    "searching": "Buscando..."
+  },
+  "Recipes": {
+    "generatedTitle": "Receita(s) gerada(s):"
+  },
+  "Ingredients": {
+    "Arroz": "Arroz",
+    "Feijão": "Feijão",
+    "Carne bovina": "Carne bovina",
+    "Carne de frango": "Carne de frango",
+    "Carne suína": "Carne suína",
+    "Peixe": "Peixe",
+    "Chocolate em barra": "Chocolate em barra",
+    "Leite condensado": "Leite condensado",
+    "Macarrão": "Macarrão",
+    "Banana": "Banana",
+    "Laranja": "Laranja",
+    "Abacaxi": "Abacaxi",
+    "Batata": "Batata",
+    "Cenoura": "Cenoura",
+    "Carne seca": "Carne seca",
+    "Mandioca": "Mandioca",
+    "Sal": "Sal",
+    "Açúcar": "Açúcar",
+    "Farinha de trigo": "Farinha de trigo",
+    "Manteiga": "Manteiga",
+    "Leite": "Leite",
+    "Ovos": "Ovos",
+    "Fermento em pó": "Fermento em pó",
+    "Óleo vegetal": "Óleo vegetal",
+    "Chocolate em pó": "Chocolate em pó",
+    "Cebola": "Cebola",
+    "Alho": "Alho",
+    "Tomate": "Tomate",
+    "Pimenta": "Pimenta",
+    "Limão": "Limão",
+    "Salsinha": "Salsinha",
+    "Cebolinha": "Cebolinha",
+    "Azeite de oliva": "Azeite de oliva",
+    "Vinagre": "Vinagre",
+    "Mostarda": "Mostarda",
+    "Molho de soja": "Molho de soja",
+    "Mel": "Mel",
+    "Canela": "Canela",
+    "Noz-moscada": "Noz-moscada",
+    "Gengibre": "Gengibre",
+    "Coentro": "Coentro",
+    "Manjericão": "Manjericão",
+    "Orégano": "Orégano",
+    "Alecrim": "Alecrim",
+    "Tomilho": "Tomilho",
+    "Páprica": "Páprica",
+    "Cominho": "Cominho",
+    "Pimentão": "Pimentão",
+    "Milho": "Milho",
+    "Creme de leite": "Creme de leite",
+    "Queijo parmesão": "Queijo parmesão",
+    "Queijo muçarela": "Queijo muçarela",
+    "Queijo cheddar": "Queijo cheddar",
+    "Queijo cream cheese": "Queijo cream cheese",
+    "Presunto": "Presunto",
+    "Peito de frango": "Peito de frango",
+    "Carne moída": "Carne moída",
+    "Linguiça": "Linguiça",
+    "Bacon": "Bacon",
+    "Camarão": "Camarão",
+    "Abobrinha": "Abobrinha"
+  },
+  "Gemini": {
+    "prompt": "Liste uma série de receitas deliciosas da culinária brasileira que utilizem os ingredientes: {ingredients}. Devolva inteiramente sua resposta em formato html dentro de uma div."
+  }
+}

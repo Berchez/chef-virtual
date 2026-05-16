@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
 import React from 'react';
 import { ArrowLeft, ArrowRight } from '@styled-icons/material';
+import { useTranslations } from 'next-intl';
 
 export type IngredientProps = {
   name: string;
@@ -15,6 +16,7 @@ export const Ingredient = ({
   arrowDirection,
   onClick,
 }: IngredientProps) => {
+  const t = useTranslations('Ingredients');
   return (
     <button
       onClick={onClick}
@@ -22,7 +24,7 @@ export const Ingredient = ({
     >
       <Image src={pathImg} width={40} height={40} alt={`image of a ${name}`} />
       <div className="flex justify-center items-center gap-x-2">
-        <p className="text-center">{name}</p>
+        <p className="text-center">{t(name)}</p>
         <span className="bg-green-400 rounded-full w-5 h-5 justify-center items-center hidden group-hover:flex transition">
           {arrowDirection === 'right' ? (
             <ArrowRight className="w-8 h-8 text-white" />

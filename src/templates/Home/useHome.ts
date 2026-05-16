@@ -8,8 +8,11 @@ import {
   removeIngredient,
 } from '@/redux/selected-ingredients/actions';
 import { IRootState } from '@/redux/root-reducer';
+import { useLocale, useTranslations } from 'next-intl';
 
 const useHome = () => {
+  const t = useTranslations();
+  const locale = useLocale();
   const { ingredients: selectedIngredients } = useSelector(
     (rootReducer: IRootState) => rootReducer.selectedIngredientsReducer,
   );
@@ -27,7 +30,13 @@ const useHome = () => {
   const handleSearchRecipesClick = async () => {
     setLoading(true);
     try {
-      const textRecipes = await sendIngredientsGemini(selectedIngredients);
+      const stringIngredients = selectedIngredients
+        .map((obj) => obj.name)
+        .join(', ');
+
+      const prompt = t('Gemini.prompt', { ingredients: stringIngredients });
+
+      const textRecipes = await sendIngredientsGemini(prompt);
       const formattedRecipe = formatRecipe(textRecipes);
       setRecipes(formattedRecipe);
     } finally {

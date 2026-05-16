@@ -21,6 +21,7 @@ Chef Virtual is a Next.js application that allows users to select ingredients an
 - `src/components`: Reusable UI components (Button, Ingredient, Menu, etc.).
 - `src/redux`: State management logic (actions, reducers, selectors, store).
 - `src/services`: Integration with external services (e.g., Gemini API).
+- `src/i18n`: Configuration for next-intl.
 - `src/api`: Static JSON files for ingredient lists (`ingredients.json`, `fullIngredients.json`).
 - `public/assets`: Static images for ingredients.
 
